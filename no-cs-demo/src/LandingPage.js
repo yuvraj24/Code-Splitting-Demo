@@ -7,14 +7,12 @@ const LandingPage = () => {
     return (
         <div className="App">
             <header className="App-header">
+                <p><strong>Welcome to Code Splitting - Demo</strong></p>
                 <p>
-                    <strong>Welcome to Code Splitting - Demo</strong>
-                </p>
-                <div className='link-view'>
                     <Link to="/normal" >
                         Normal Page
                     </Link>
-                </div>
+                </p>
                 <img src={logo} className="App-logo" alt="logo" />
             </header>
         </div>
